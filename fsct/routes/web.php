@@ -20,3 +20,7 @@ Route::post('/admin/company/create', "FsctController@postCreate");
 Route::get('/admin/company/{id}/edit', "FsctController@edit");
 Route::post('/admin/company/{id}/edit', "FsctController@postEdit");
 Route::post('/admin/company/{id}/delete', "FsctController@postDelete");
+
+Route::get('/admin/rate1', "RateController@index1");
+Route::get('/admin/rate2', "RateController@index2");
+Route::get('/admin/rate3', "RateController@index3");

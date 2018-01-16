@@ -2,7 +2,7 @@
     <div class="col-md-12">
         <div class="box box-info">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/admin/company">จัดการรางวัล</a></li>
+                <li class="breadcrumb-item"><a href="/admin/company">กลับ</a></li>
             </ol>
             <div class="box-header with-border">
                 <h3 class="box-title">เพิ่ม</h3>

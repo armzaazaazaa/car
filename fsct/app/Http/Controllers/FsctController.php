@@ -32,7 +32,7 @@ class FsctController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
 
@@ -53,6 +53,7 @@ class FsctController extends Controller
         return view('company.edit')
             ->with('branch', $branch);
     }
+
     public function postEdit(Request $request, $id)
     {
 
